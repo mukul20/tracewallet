@@ -1,0 +1,26 @@
+body {
+	font-family: 'Nunito', sans-serif;
+	font-size: 14px;
+	padding-top: 30px;
+}
+*:focus {
+	box-shadow: none !important;
+}
+#trace-form .btn,
+#trace-form input,
+#wallet-wrapper input {
+	margin-bottom: 15px;
+}
+#trace-form label {
+	margin-right: 15px;
+}
+#wallet-wrapper {
+	padding-left: 15px;
+}
+.transactions-wrapper {
+	margin: 15px 0 60px 0;
+}
+.transactions td {
+	max-width: 480px;
+	overflow: hidden;
+}
